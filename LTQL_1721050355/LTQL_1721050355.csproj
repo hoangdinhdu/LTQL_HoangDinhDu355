@@ -153,6 +153,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
+    <Compile Include="Models\GetData.cs" />
     <Compile Include="Models\HDDSanPham355.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhaCungCap355.cs" />
