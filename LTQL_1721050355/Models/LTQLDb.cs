@@ -12,6 +12,7 @@ namespace LTQL_1721050355.Models
         {
         }
         public virtual DbSet<NhaCungCap355> NhaCungCap355s { get; set; }
+        public virtual DbSet<HDDSanPham355> HDDSanPham355s { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

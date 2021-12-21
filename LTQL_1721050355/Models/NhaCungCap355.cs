@@ -20,6 +20,6 @@ namespace LTQL_1721050355.Models
         [StringLength(50)]
 
         public string Tennhacungcap { get; set; }
-       
+        public ICollection<HDDSanPham355> HDDSanPham355s { get; set; }
     }
 }

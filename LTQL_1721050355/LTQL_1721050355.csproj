@@ -141,7 +141,12 @@
     <Compile Include="Migrations\202112210611169_hehehee.Designer.cs">
       <DependentUpon>202112210611169_hehehee.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210618386_heheheeh.cs" />
+    <Compile Include="Migrations\202112210618386_heheheeh.Designer.cs">
+      <DependentUpon>202112210618386_heheheeh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\HDDSanPham355.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhaCungCap355.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -210,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112210611169_hehehee.resx">
       <DependentUpon>202112210611169_hehehee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210618386_heheheeh.resx">
+      <DependentUpon>202112210618386_heheheeh.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
