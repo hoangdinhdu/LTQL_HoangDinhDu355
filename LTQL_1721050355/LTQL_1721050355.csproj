@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HDDSanPham355sController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap355sController.cs" />
     <Compile Include="Global.asax.cs">
@@ -192,6 +193,11 @@
     <Content Include="Views\NhaCungCap355s\Details.cshtml" />
     <Content Include="Views\NhaCungCap355s\Edit.cshtml" />
     <Content Include="Views\NhaCungCap355s\Index.cshtml" />
+    <Content Include="Views\HDDSanPham355s\Create.cshtml" />
+    <Content Include="Views\HDDSanPham355s\Delete.cshtml" />
+    <Content Include="Views\HDDSanPham355s\Details.cshtml" />
+    <Content Include="Views\HDDSanPham355s\Edit.cshtml" />
+    <Content Include="Views\HDDSanPham355s\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
