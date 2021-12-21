@@ -37,6 +37,7 @@ namespace LTQL_1721050355.Controllers
         }
 
         // GET: HDDSanPham355s/Create
+        [Authorize]
         public ActionResult Create()
         {
             ViewBag.Manhacungcap = new SelectList(db.NhaCungCap355s, "Manhacungcap", "Tennhacungcap");
@@ -62,6 +63,7 @@ namespace LTQL_1721050355.Controllers
         }
 
         // GET: HDDSanPham355s/Edit/5
+        [Authorize]
         public ActionResult Edit(string id)
         {
             if (id == null)
@@ -95,6 +97,7 @@ namespace LTQL_1721050355.Controllers
         }
 
         // GET: HDDSanPham355s/Delete/5
+        [Authorize]
         public ActionResult Delete(string id)
         {
             if (id == null)

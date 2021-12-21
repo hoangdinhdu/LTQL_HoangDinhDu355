@@ -128,6 +128,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountsController.cs" />
     <Compile Include="Controllers\HDDSanPham355sController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NhaCungCap355sController.cs" />
@@ -146,7 +147,12 @@
     <Compile Include="Migrations\202112210618386_heheheeh.Designer.cs">
       <DependentUpon>202112210618386_heheheeh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202112210625026_heheheehe.cs" />
+    <Compile Include="Migrations\202112210625026_heheheehe.Designer.cs">
+      <DependentUpon>202112210625026_heheheehe.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Account.cs" />
     <Compile Include="Models\HDDSanPham355.cs" />
     <Compile Include="Models\LTQLDb.cs" />
     <Compile Include="Models\NhaCungCap355.cs" />
@@ -198,6 +204,7 @@
     <Content Include="Views\HDDSanPham355s\Details.cshtml" />
     <Content Include="Views\HDDSanPham355s\Edit.cshtml" />
     <Content Include="Views\HDDSanPham355s\Index.cshtml" />
+    <Content Include="Views\Accounts\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -224,6 +231,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202112210618386_heheheeh.resx">
       <DependentUpon>202112210618386_heheheeh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202112210625026_heheheehe.resx">
+      <DependentUpon>202112210625026_heheheehe.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
