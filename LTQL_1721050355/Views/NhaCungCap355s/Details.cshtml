@@ -1,0 +1,27 @@
+﻿@model LTQL_1721050355.Models.NhaCungCap355
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NhaCungCap355</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Tennhacungcap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tennhacungcap)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Manhacungcap }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

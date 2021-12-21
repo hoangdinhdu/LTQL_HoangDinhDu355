@@ -11,6 +11,7 @@ namespace LTQL_1721050355.Models
             : base("name=LTQLDb")
         {
         }
+        public virtual DbSet<NhaCungCap355> NhaCungCap355s { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
